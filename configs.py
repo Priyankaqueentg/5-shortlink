@@ -5,9 +5,9 @@ API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 BASE_URL = environ.get("BASE_URL", "")
 DATABASE_URL = environ.get("DATABASE_URL", "")
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-ADMINS = int(environ.get("ADMINS", ""))
-AUTH_CHANNELS = environ.get("AUTH_CHANNEL", "")
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002266863905"))
+ADMINS = int(environ.get("ADMINS", "7562335183"))
+AUTH_CHANNELS = environ.get("AUTH_CHANNEL", "-1002416632503")
 AUTH_CHANNELS = [int(channel_id) for channel_id in AUTH_CHANNELS.split(",")]
 
 START_TXT = '''<b>{},
